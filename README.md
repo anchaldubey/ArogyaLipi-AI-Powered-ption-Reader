@@ -7,6 +7,60 @@ The project can be divided into two distinct components as follows -
 1. Handwriting Recognition Pipeline
 2. Doctor's Prescription System App
 
+### Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone github repo ka naam likho
+   cd ArogyaLipi
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Set up Firebase:**
+   - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
+   - Add an Android app to your Firebase project and download the `google-services.json` file.
+   - Place the `google-services.json` file in the `android/app` directory.
+   - Add an iOS app to your Firebase project and download the `GoogleService-Info.plist` file.
+   - Place the `GoogleService-Info.plist` file in the `ios/Runner` directory.
+
+4. **Configure the Firebase SDK:**
+   ```bash
+   flutterfire configure
+   ```
+
+### Running the Application
+
+1. **For Android:**
+   - Open Android Studio and run the emulator.
+   - In the terminal, run:
+     ```bash
+     flutter run
+     ```
+
+2. **For iOS:**
+   - Open Xcode and run the simulator.
+   - In the terminal, run:
+     ```bash
+     flutter run
+     ```
+
+3. **For Web:**
+   - In the terminal, run:
+     ```bash
+     flutter run -d chrome
+     ```
+
+4. **For Desktop:**
+   - Ensure you have the necessary desktop support enabled.
+   - In the terminal, run:
+     ```bash
+     flutter run -d <platform>
+     ```
+
 # Contents
 
 - [Handwriting Recognition Pipeline](#handwriting-recognition-pipeline)
